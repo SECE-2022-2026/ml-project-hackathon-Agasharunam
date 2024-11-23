@@ -1,0 +1,16 @@
+Stock Price Prediction using LSTM
+Problem Statement: Predict stock prices using historical stock data with
+an LSTM model.
+Link: Yahoo Finance Data
+Hints:
+• Data Preparation: Load historical stock data (open, close, volume) and
+create time series sequences.
+• Data Normalization: Normalize the data to ensure the LSTM can learn
+effectively (use MinMaxScaler).
+
+• LSTM Model: Create an LSTM model with one or more LSTM layers,
+followed by a dense layer.
+• Training: Split the data into training and testing sets, and use Mean
+Squared Error (MSE) as the loss function.
+• Prediction: Visualize predictions vs actual values to evaluate
+performance.
